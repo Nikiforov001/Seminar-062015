@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="05687ff7-2155-4b05-99e7-246b42ddc298" name="ВерсияПроекта" useStandardCommands="true" dataLockControlMode="Managed">
+  <synonym key="ru" value="Версия проекта"/>
+  <producedTypes>
+    <managerType typeId="9fa525e9-c276-4621-baa0-9cb7a87bdcad" valueTypeId="eee43368-2307-485c-8d30-7b19bba2b978">
+    </managerType>
+    <valueManagerType typeId="98f154c2-d641-4fd6-8f5e-571d27a4b0e5" valueTypeId="ed5ca6f4-c3d7-4510-a1a3-f75f11334084">
+    </valueManagerType>
+  </producedTypes>
+  <type>
+    <types>String</types>
+    <stringQualifiers length="10"/>
+  </type>
+</mdclass:Constant>
