@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><mdclass:Configuration xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5c0e5357-8985-4a5a-ac7a-b130774aabce" name="Семинар062015001" defaultRunMode="ManagedApplication" scriptVariant="Russian" vendor="" version="" defaultLanguage="Language.Русский" dataLockControlMode="Managed" objectAutonumerationMode="NotAutoFree" modalityUseMode="DontUse">
     <usePurposes>PersonalComputer</usePurposes>
+    <subsystems>Subsystem.УправленческийУчет</subsystems>
+    <commonModules>CommonModule.ОбщегоНазначения</commonModules>
     <constants>Constant.ВерсияПроекта</constants>
   <synonym key="ru" value="Семинар 06.2015 001"/>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1a882fa8-2ee9-4677-beef-8612e7109179"/>
