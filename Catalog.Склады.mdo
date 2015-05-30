@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fba0b600-30f5-468e-84e4-30322b60a611" name="Склады" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" codeLength="9" descriptionLength="25" codeType="String" codeAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultPresentation="AsDescription" editType="InDialog" choiceMode="BothWays">
+    <inputByString>Catalog.Склады.StandardAttribute.Description</inputByString>
+    <inputByString>Catalog.Склады.StandardAttribute.Code</inputByString>
+  <synonym key="ru" value="Склады"/>
+  <producedTypes>
+    <objectType typeId="6b562a95-f87f-41ad-8ddb-e17cfc689eec" valueTypeId="9b91378f-e7e6-43dc-9a29-30521e938d54">
+    </objectType>
+    <refType typeId="4f28c4e3-f674-40fe-a1de-4d0813c03d43" valueTypeId="9f4ea55f-b437-41a4-9ea9-29c63cc64784">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="4219baee-863d-47bc-b5f8-6801dd114248" valueTypeId="a4c73d25-baa9-4789-b326-691bca3c6604">
+    </selectionType>
+    <listType typeId="4d0804fd-4976-4dd6-b82f-4801398416c0" valueTypeId="1e86a5e9-f7c7-48d1-88ca-cbc8d594918e">
+    </listType>
+    <managerType typeId="8bb97281-4ea8-4d39-b6cc-8105f43ad2e2" valueTypeId="a7d253a2-ee17-4dee-8502-2b630b432e5f">
+    </managerType>
+  </producedTypes>
+</mdclass:Catalog>

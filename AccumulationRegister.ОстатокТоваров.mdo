@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?><mdclass:AccumulationRegister xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="723ac207-0903-4058-82fb-22f53d7951cc" name="ОстатокТоваров" useStandardCommands="true" dataLockControlMode="Managed" enableTotalsSplitting="true">
+  <synonym key="ru" value="Остаток товаров"/>
+  <producedTypes>
+    <selectionType typeId="b2801327-cb48-40df-879e-3b65ee9efb4e" valueTypeId="750a0b59-c917-4840-94e2-f6cd56ec2ea3">
+    </selectionType>
+    <listType typeId="5bf5c262-e58f-49e2-93ab-bc354001384d" valueTypeId="065a199e-5d82-4314-acf8-b8fa5d826894">
+    </listType>
+    <managerType typeId="bede815a-77f9-4886-87cf-0671e2ea157c" valueTypeId="82d7f2aa-16a4-4db8-a2bb-66cd866b6b89">
+    </managerType>
+    <recordSetType typeId="93febf79-cae7-43ca-8cda-ff208ad6f308" valueTypeId="6d3aae30-ba89-4d71-8cf1-1111d7172a99">
+    </recordSetType>
+    <recordKeyType typeId="509cddc6-d8bd-4910-a5bc-c2cadc0daf51" valueTypeId="e79f86b1-18e0-4bf9-a721-baf1379c2f9b">
+    </recordKeyType>
+    <recordType typeId="80e498b9-ff05-457d-b746-6051d8d115b2" valueTypeId="285195c6-2512-4552-9845-7615f73bff32">
+    </recordType>
+  </producedTypes>
+  <resources uuid="5f37443a-bf36-4158-8c86-4fc713db1e87" name="Количество" fullTextSearch="Use">
+    <synonym key="ru" value="Количество"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers precision="15" scale="2"/>
+    </type>
+  </resources>
+  <dimensions uuid="2a5bdc61-fc09-42c2-9309-144b3fb58dac" name="Склад" fillChecking="ShowError" fullTextSearch="Use">
+    <synonym key="ru" value="Склад"/>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+  </dimensions>
+  <dimensions uuid="e95dac37-f43e-4602-8eb8-ab6dfed1b2cb" name="Товар" fillChecking="ShowError" fullTextSearch="Use">
+    <synonym key="ru" value="Товар"/>
+    <type>
+      <types>CatalogRef.Номенклатура</types>
+    </type>
+  </dimensions>
+</mdclass:AccumulationRegister>

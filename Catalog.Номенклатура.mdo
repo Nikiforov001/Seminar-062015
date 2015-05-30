@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d500c6f2-86ae-46a2-a974-2a9a1d6008c0" name="Номенклатура" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" codeLength="9" descriptionLength="25" codeType="String" codeAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultPresentation="AsDescription" editType="InDialog" choiceMode="BothWays">
+    <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
+    <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
+  <synonym key="ru" value="Номенклатура"/>
+  <producedTypes>
+    <objectType typeId="19b4c3c4-bef9-4964-9ee2-7b0ce424430f" valueTypeId="05d8ee5b-ee18-44b7-b92b-0da31afd7e7c">
+    </objectType>
+    <refType typeId="b6c17f5c-d8f1-4a2a-be69-99825899c395" valueTypeId="a724b28b-3a2c-456a-9051-08836c784619">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="7719ea18-1430-4fd4-84cc-cfe316fc9535" valueTypeId="b8300bb0-abfb-4a5b-a342-0eda3e1d90a7">
+    </selectionType>
+    <listType typeId="5c7ff9a4-2e70-454e-b997-93029e2213c6" valueTypeId="bf0e82d7-4a49-4d5e-9f4f-937238ad31d3">
+    </listType>
+    <managerType typeId="22270fb1-1c8a-4bdb-9eda-4f769ff835a5" valueTypeId="a0ed80cb-3e9d-441f-89f5-b27061d640eb">
+    </managerType>
+  </producedTypes>
+</mdclass:Catalog>

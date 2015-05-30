@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fb9706c-74e1-462e-b03a-d5a938477079" name="ПриходнаяНакладная" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" numberType="String" numberLength="9" numberAllowedLength="Variable" checkUnique="true" autonumbering="true" postInPrivilegedMode="true" unpostInPrivilegedMode="true">
+    <inputByString>Document.ПриходнаяНакладная.StandardAttribute.Number</inputByString>
+    <registerRecords>AccumulationRegister.ОстатокТоваров</registerRecords>
+  <synonym key="ru" value="Приходная накладная"/>
+  <producedTypes>
+    <objectType typeId="af546f19-36bc-4c98-96bf-9b67a3003cb4" valueTypeId="c63887f1-ab09-4832-a5f7-352af7528599">
+    </objectType>
+    <refType typeId="114658d2-1e13-4ef0-ab71-5549a4fb3550" valueTypeId="4fa058fc-991d-475b-a1f0-07ff4d6d923d">
+      <emptyRef/>
+    </refType>
+    <selectionType typeId="8cda1a14-3d82-4faa-bf95-3ae2537dfd78" valueTypeId="68a6946d-e1c1-4eeb-be96-08f6d6c0bc88">
+    </selectionType>
+    <listType typeId="b63c73d6-6ccd-4114-9916-dd27b724d36f" valueTypeId="89719c99-720b-4a1f-9262-6151af056cbe">
+    </listType>
+    <managerType typeId="286f9e7f-0611-4b5f-b695-6e7ecaa93488" valueTypeId="e0f8d52a-362d-4b3a-998c-41b016063294">
+    </managerType>
+  </producedTypes>
+  <attributes uuid="b6a0df3f-1852-4ef9-bab3-c099d479b063" name="Склад" fillChecking="ShowError" fullTextSearch="Use">
+    <synonym key="ru" value="Склад"/>
+    <type>
+      <types>CatalogRef.Склады</types>
+    </type>
+  </attributes>
+  <tabularSections uuid="d489f5bf-5bfc-4ee0-b44f-ada223125357" name="Товары">
+    <synonym key="ru" value="Товары"/>
+    <producedTypes>
+      <objectType typeId="d64d0983-e400-4951-aa90-66ecb269735e" valueTypeId="5c260c35-ab1e-4207-9169-410df146d052">
+      </objectType>
+      <rowType typeId="ad9f5924-4dbc-45ee-9269-2b54640c9101" valueTypeId="b497db33-dbe1-4d94-bff1-eff945514499">
+      </rowType>
+    </producedTypes>
+    <attributes uuid="6627380c-3cfd-458c-a7b9-f1a0a98392a0" name="Товар">
+      <synonym key="ru" value="Товар"/>
+      <type>
+        <types>CatalogRef.Номенклатура</types>
+      </type>
+    </attributes>
+    <attributes uuid="2684be6c-c7fc-4c0b-ad4c-cde5f68596c8" name="Количество">
+      <synonym key="ru" value="Количество"/>
+      <type>
+        <types>Number</types>
+        <numberQualifiers precision="15" scale="2"/>
+      </type>
+    </attributes>
+  </tabularSections>
+</mdclass:Document>

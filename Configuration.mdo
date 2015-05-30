@@ -3,6 +3,11 @@
     <subsystems>Subsystem.УправленческийУчет</subsystems>
     <commonModules>CommonModule.ОбщегоНазначения</commonModules>
     <constants>Constant.ВерсияПроекта</constants>
+    <catalogs>Catalog.Номенклатура</catalogs>
+    <catalogs>Catalog.Склады</catalogs>
+    <documents>Document.ПриходнаяНакладная</documents>
+    <documents>Document.РасходнаяНакладная</documents>
+    <accumulationRegisters>AccumulationRegister.ОстатокТоваров</accumulationRegisters>
   <synonym key="ru" value="Семинар 06.2015 001"/>
   <containedObjects classId="9cd510cd-abfc-11d4-9434-004095e12fc7" objectId="1a882fa8-2ee9-4677-beef-8612e7109179"/>
   <containedObjects classId="9fcd25a0-4822-11d4-9414-008048da11f9" objectId="b19b2a86-d746-4e04-b701-9baab6d631e3"/>
