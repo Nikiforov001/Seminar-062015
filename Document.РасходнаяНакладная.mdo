@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaaa328d-6288-478c-812c-62282dcfc213" name="РасходнаяНакладная" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" numberType="String" numberLength="9" numberAllowedLength="Variable" checkUnique="true" autonumbering="true" postInPrivilegedMode="true" unpostInPrivilegedMode="true">
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Document xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aaaa328d-6288-478c-812c-62282dcfc213" name="РасходнаяНакладная" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" numberType="String" numberLength="9" numberAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultObjectForm="Document.РасходнаяНакладная.Form.DocumentForm" postInPrivilegedMode="true" unpostInPrivilegedMode="true">
     <inputByString>Document.РасходнаяНакладная.StandardAttribute.Number</inputByString>
     <registerRecords>AccumulationRegister.ОстатокТоваров</registerRecords>
   <synonym key="ru" value="Расходная накладная"/>
@@ -21,6 +21,11 @@
       <types>CatalogRef.Склады</types>
     </type>
   </attributes>
+  <forms uuid="ca0271ba-fd87-4609-89a3-942fd48ff2e9" name="DocumentForm">
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+    <synonym key="ru" value="Document form"/>
+  </forms>
   <tabularSections uuid="b10f1b7a-3477-4b80-b35d-d61f84421ae2" name="Товары">
     <synonym key="ru" value="Товары"/>
     <producedTypes>

@@ -1,3 +1,10 @@
-<?xml version="1.0" encoding="UTF-8"?><mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1307ec3c-a14d-4c1c-9926-e77e3e0cb342" name="УправленческийУчет" includeInCommandInterface="true">
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Subsystem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1307ec3c-a14d-4c1c-9926-e77e3e0cb342" name="УправленческийУчет" includeInCommandInterface="true">
+    <content>Catalog.Номенклатура</content>
+    <content>Catalog.Склады</content>
+    <content>Catalog.Контрагенты</content>
+    <content>Document.ПриходнаяНакладная</content>
+    <content>Document.РасходнаяНакладная</content>
+    <content>AccumulationRegister.ОстатокТоваров</content>
   <synonym key="ru" value="Управленческий учет"/>
+  <picture xsi:type="core:PictureRef" picture="CommonPicture.ИС_Картинка"/>
 </mdclass:Subsystem>
