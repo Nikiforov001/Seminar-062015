@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8"?><mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d500c6f2-86ae-46a2-a974-2a9a1d6008c0" name="Номенклатура" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" codeLength="9" descriptionLength="25" codeType="String" codeAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultPresentation="AsDescription" editType="InDialog" choiceMode="BothWays">
+<?xml version="1.0" encoding="UTF-8"?><mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d500c6f2-86ae-46a2-a974-2a9a1d6008c0" name="Номенклатура" useStandardCommands="true" fullTextSearchOnInputByString="DontUse" createOnInput="Use" dataLockControlMode="Managed" fullTextSearch="Use" codeLength="9" descriptionLength="25" codeType="String" codeAllowedLength="Variable" checkUnique="true" autonumbering="true" defaultPresentation="AsDescription" editType="InDialog" choiceMode="BothWays">
     <inputByString>Catalog.Номенклатура.StandardAttribute.Description</inputByString>
     <inputByString>Catalog.Номенклатура.StandardAttribute.Code</inputByString>
   <synonym key="ru" value="Номенклатура"/>
@@ -15,4 +15,12 @@
     <managerType typeId="22270fb1-1c8a-4bdb-9eda-4f769ff835a5" valueTypeId="a0ed80cb-3e9d-441f-89f5-b27061d640eb">
     </managerType>
   </producedTypes>
+  <attributes uuid="f0e52e3c-30ee-4a83-ba56-5dd12db3e5e8" name="ПлановаяЦена" fullTextSearch="Use">
+    <synonym key="ru" value="Плановая цена"/>
+    <type>
+      <types>Number</types>
+      <numberQualifiers precision="14" scale="2"/>
+    </type>
+    <fillValue xsi:type="core:NumberValue" value="0"/>
+  </attributes>
 </mdclass:Catalog>
