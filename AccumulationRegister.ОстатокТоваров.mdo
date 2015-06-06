@@ -21,6 +21,13 @@
       <numberQualifiers precision="15" scale="2"/>
     </type>
   </resources>
+  <attributes uuid="f858fe0d-c509-4728-9492-46440db7a87c" name="ДопРеквизит" fullTextSearch="Use">
+    <synonym key="ru" value="Доп реквизит"/>
+    <type>
+      <types>String</types>
+      <stringQualifiers length="10"/>
+    </type>
+  </attributes>
   <dimensions uuid="2a5bdc61-fc09-42c2-9309-144b3fb58dac" name="Склад" fillChecking="ShowError" fullTextSearch="Use">
     <synonym key="ru" value="Склад"/>
     <type>
